@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Tesla_1 = require("./Model/Tesla");
+
 var constructor_1 = require("./Decorators/constructor");
 var tesla = new Tesla_1.Tesla('S123', 'SUV', 12, 200);
 // console.log(tesla.getInfo);
